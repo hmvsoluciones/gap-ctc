@@ -1180,23 +1180,12 @@
     });
   })();
 
-  // Tamaño base según el ancho de la pantalla: la diapositiva se diseñó a
-  // 1440×810 y en un móvil se encogía al ~25%. Con una base más chica el
-  // factor de escala crece y todo se ve más grande sin necesidad de zoom.
-  function pickSize() {
-    var w = window.innerWidth;
-    if (w <= 480) return { width: 600, height: 338 };
-    if (w <= 820) return { width: 800, height: 450 };
-    return { width: 960, height: 540 };
-  }
-  var baseSize = pickSize();
-
   Reveal.initialize({
-    width: baseSize.width,
-    height: baseSize.height,
-    margin: 0.02,
+    width: 1440,
+    height: 810,
+    margin: 0.035,
     minScale: 0.2,
-    maxScale: 2.5,
+    maxScale: 2.0,
     controls: true,
     progress: true,
     slideNumber: 'c/t',
@@ -1207,22 +1196,6 @@
     transitionSpeed: 'fast',
     backgroundTransition: 'fade',
     plugins: [ RevealNotes ]
-  });
-
-  // Al cambiar el tamaño de la ventana (rotar el móvil, zoom del navegador),
-  // recalcular la base solo si cambia de tramo, para no reacomodar a cada rato.
-  var currentBucket = baseSize.width;
-  var resizeTimer = null;
-  window.addEventListener('resize', function () {
-    if (resizeTimer) clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function () {
-      var s = pickSize();
-      if (s.width !== currentBucket) {
-        currentBucket = s.width;
-        Reveal.configure({ width: s.width, height: s.height });
-        Reveal.layout();
-      }
-    }, 200);
   });
 
   const setCover = () => {
