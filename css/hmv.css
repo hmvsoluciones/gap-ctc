@@ -517,7 +517,7 @@ body.is-cover .deck-top{ opacity:0; }
   font-family:var(--serif); font-size:35px; line-height:1.1;
   color:var(--olive); margin:0 0 18px; font-style:italic; font-weight:500;
 }
-.cover .lead{ font-size:18px; color:var(--muted); max-width:62ch; line-height:1.5; margin:0 0 26px; }
+.cover .lead{ font-size:18px; color:var(--muted); max-width:1100px; line-height:1.5; margin:0 0 26px; }
 .cover-orbit{
   position:absolute; right:-160px; top:50%; transform:translateY(-50%);
   width:620px; height:620px; border-radius:50%;
@@ -555,7 +555,7 @@ body.is-cover .deck-top{ opacity:0; }
 
 /* ---------- bloque inferior de portada ---------- */
 .cover-bottom{
-  position:absolute; left:76px; bottom:74px; width:780px;
+  position:absolute; left:76px; bottom:40px; width:780px;
   border-top:1px solid var(--line); padding-top:16px;
 }
 .cover-bottom .cm{
@@ -688,3 +688,17 @@ body.is-cover .deck-top{ opacity:0; }
 }
 
 
+
+/* ---------- diap. 13 Secuencia (#fases): contenido denso, compactar para que quepa en 810px ---------- */
+/* Medición en navegador (1919x998): el título caía en 2 líneas y las tarjetas + franja SALIDA + notas
+   se salían ~170px por abajo. Recortes: título a 42px (1 línea), sin descripciones <p> en tarjetas,
+   h3 Fase 0 a 1 línea, sub a 1 línea, márgenes y paddings ajustados. */
+#fases{ padding-top:40px; padding-bottom:48px; }
+#fases .s-title{ font-size:42px; margin-bottom:8px; }
+#fases .s-sub{ margin-bottom:12px; }
+#fases .phases{ margin-top:6px; }
+#fases .phase h3{ font-size:19px; }
+#fases .mini li{ padding:4px 0; }
+#fases .phase-gates{ margin-top:10px; padding-top:8px; }
+#fases .phase-gates b{ font-size:11px; }
+#fases .note{ margin-top:10px; }

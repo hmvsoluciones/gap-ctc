@@ -1,7 +1,7 @@
 ﻿# CTC Telecom — GAP Analysis Estratégico
 ### Presentación ejecutiva para Dirección General · HMV Soluciones
 
-Presentación en **reveal.js** (22 diapositivas, formato 16:9, 1440×810) construida a partir del análisis de procesos, la transcripción de la reunión de levantamiento y las notas de campo de noviembre de 2026.
+Presentación en **reveal.js** (24 diapositivas, formato 16:9, 1440×810) construida a partir del análisis de procesos, la transcripción de la reunión de levantamiento y las notas de campo de noviembre de 2026.
 
 ---
 
@@ -32,7 +32,7 @@ También se puede navegar con los controles de la esquina inferior derecha y con
 
 ---
 
-## Estructura (22 diapositivas)
+## Estructura (24 diapositivas)
 
 1. **Portada** — GAP Analysis / Análisis de Brechas, solo con los logos CTC × HMV.
 2. **Lo que aporta HMV** — mapa visual de capacidades: tecnología e innovación, arquitectura e ingeniería, metodologías ágiles, gestión y aseguramiento, gobernanza, negocio y procesos.
@@ -55,7 +55,9 @@ También se puede navegar con los controles de la esquina inferior derecha y con
 19. **Decisiones** — las cinco decisiones que se piden al CEO, incluido el piloto de IA en la fase 4 y la opción de arranque reducido (Fase 0 + Fase 1).
 20. **Mensaje para el CEO** — la cita que resume el diagnóstico.
 21. **Próximos pasos** — 8 semanas, CTA (arrancar la fase 0 el 23 de noviembre) e hitos 30/60/90/120.
-22. **Cierre** — “El siguiente paso no es comprar más software; es construir el sistema operativo de CTC”, con CTA para arrancar la fase 0 el 23 de noviembre.
+22. **Diferenciadores** — un solo equipo, una solución integral: Visión 360, ecosistema tecnológico, equipo especializado en marcos, tecnologías y metodologías, mejores prácticas y normatividad.
+23. **Transferencia de conocimiento** — el equipo interno que sostiene el cambio: transferencia de conocimiento, capacitación, documentación de soporte, manuales de usuario y técnicos, y propiedad intelectual de lo desarrollado a medida.
+24. **Cierre** — “El siguiente paso no es comprar más software; es construir el sistema operativo de CTC”, con CTA para arrancar la fase 0 el 23 de noviembre.
 
 > La página de soluciones también está disponible como archivo independiente: **`soluciones.html`**.
 
@@ -79,7 +81,7 @@ Los logos se tomaron de `hmvsoluciones.com` y `ctctelecom.mx`; la presentación 
 
 ```
 presentacion-gap-analysis/
-├── index.html                  # La presentación completa (22 diapositivas)
+├── index.html                  # La presentación completa (24 diapositivas)
 ├── soluciones.html             # Página independiente de soluciones
 ├── css/
 │   └── hmv.css                 # Sistema visual claro HMV
