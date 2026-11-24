@@ -36,13 +36,13 @@ También se puede navegar con los controles de la esquina inferior derecha y con
 
 1. **Portada** — GAP Analysis / Análisis de Brechas, solo con los logos CTC × HMV.
 2. **Lo que aporta HMV** — mapa visual de capacidades: tecnología e innovación, arquitectura e ingeniería, metodologías ágiles, gestión y aseguramiento, gobernanza, negocio y procesos.
-3. **Resumen ejecutivo** — la tesis: la operación creció, el sistema operativo no. KPIs: 38 procesos, 0 aprobados, 30 h extras, 3 almacenes.
+3. **Resumen ejecutivo** — la tesis: la operación creció, el sistema operativo no. KPIs: 33 procesos, 0 aprobados, 30 h extras, 3 almacenes.
 4. **Diagnóstico** — “No es falta de demanda. Es falta de estructura”; 32 estados, 3 países (5 en proyección), 3 almacenes.
 5. **Cadena de valor** — 6 etapas de CTC mapeadas a eTOM, con los procesos documentados que embonan en cada una.
 6. **Procesos en eTOM** — listado completo: 33 procesos agrupados en 8 dominios principales (mercado/venta, producto, cumplimiento, aseguramiento, facturación, cliente, empresa y proveedores) + 5 mapas de referencia = 38 documentos.
 7. **GAP Analysis** — 8 macroprocesos con madurez, riesgo, prioridad y evidencia actualizada (CRM no funcional, almacén en implementación, procesos objetivo sin implementar, seguridad sin roles).
 8. **Evidencia** — 6 dolores que más cuestan y su impacto (1–10).
-9. **Madurez** — 38 procesos documentados y 0 aprobados/implementados; “Lo que ya existe”: ingresos altos, inversión en mejora continua, 2 iniciativas activas y red propia.
+9. **Madurez** — 33 procesos documentados y 0 aprobados/implementados; “Lo que ya existe”: ingresos altos, inversión en mejora continua, 2 iniciativas activas y red propia.
 10. **Brechas transversales** — personas (resistencia a controles, horas extras fuera de presupuesto), procesos, tecnología (herramientas que no se usan) y datos.
 11. **Causa raíz** — la pila que sostiene el problema y la proporción 10/90.
 12. **Decisión tecnológica** — “la herramienta no arregla el proceso”; ERP y OSS explicados en palabras llanas.
@@ -105,7 +105,7 @@ No requiere instalación ni conexión a internet, salvo Google Fonts (si no hay 
 
 ## Nota sobre las cifras
 
-Los datos provienen del expediente `CTC-ERP_Modelo_Operativo_Carrier_B2B` (42 documentos, 38 procesos, 322 requerimientos) y de las notas de campo del 18-nov-2026. Los costos y plazos son **órdenes de magnitud para planeación**, no cotizaciones. La valoración de madurez e impacto es de HMV y debe validarse con los dueños de proceso antes de convertirse en compromiso. Cobertura real: 3 países (5 es proyección).
+Los datos provienen del expediente `CTC-ERP_Modelo_Operativo_Carrier_B2B` (43 documentos, 33 procesos, 322 requerimientos) y de las notas de campo del 18-nov-2026. Los costos y plazos son **órdenes de magnitud para planeación**, no cotizaciones. La valoración de madurez e impacto es de HMV y debe validarse con los dueños de proceso antes de convertirse en compromiso. Cobertura real: 3 países (5 es proyección).
 
 Para exportar a PDF: abrir `index.html?print-pdf` en Chrome y usar “Imprimir → Guardar como PDF” (tamaño horizontal, márgenes ninguno, fondo gráfico activado).
 
