@@ -1,0 +1,1110 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAP Analysis · Análisis de Brechas · CTC Telecom × HMV Soluciones</title>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500;1,9..144,600&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/reveal/reset.css">
+<link rel="stylesheet" href="vendor/reveal/reveal.css">
+<link rel="stylesheet" href="css/hmv.css">
+</head>
+<body>
+
+<div class="ambient"></div>
+
+<div class="deck-top">
+  <img class="logo-ctc" src="assets/ctc-logo-ink.png" alt="CTC Telecom">
+  <img class="logo-hmv" src="assets/logo.png" alt="HMV Soluciones">
+</div>
+
+<div class="deck-foot">HMV Soluciones · Noviembre 2026 · Confidencial</div>
+
+<div class="reveal">
+<div class="slides">
+
+<!-- ============ 01 · PORTADA ============ -->
+
+<!-- ============ 01 · PORTADA ============ -->
+<section id="cover" class="cover">
+  <div class="cover-orbit"></div>
+
+  <div class="cover-index anim d3">
+    <div class="ci-title">Contenido</div>
+    <div class="ci-item"><b>01</b><span>El diagnóstico</span></div>
+    <div class="ci-item"><b>02</b><span>La evidencia</span></div>
+    <div class="ci-item"><b>03</b><span>El método</span></div>
+    <div class="ci-item"><b>04</b><span>Las dos propuestas</span></div>
+    <div class="ci-item"><b>05</b><span>La decisión</span></div>
+  </div>
+
+  <div class="brand anim">
+    <img class="ctc" src="assets/ctc-logo-ink.png" alt="CTC Telecom">
+    <span class="x">&nbsp;</span>
+    <img class="hmv" src="assets/logo.png" alt="HMV Soluciones">
+  </div>
+
+  <div class="eyebrow anim d1">Diagnóstico de madurez operativa · 2026</div>
+
+  <h1 class="anim d1">GAP Analysis</h1>
+  <div class="sub anim d2">Análisis de Brechas</div>
+
+  <p class="lead anim d2">Dónde se pierde margen, tiempo y confianza — y qué accionar en los próximos 30 días.</p>
+
+  <div class="cover-bottom anim d4">
+    <div class="cm">Preparado por <b>HMV Soluciones</b> · Noviembre 2026 · Dirección General</div>
+    <div class="microstats">
+      <div class="m"><div class="n">33</div><div class="l">procesos documentados</div></div>
+      <div class="m"><div class="n">0</div><div class="l">implementados</div></div>
+      <div class="m"><div class="n">8</div><div class="l">macroprocesos · 4 críticos</div></div>
+    </div>
+  </div>
+
+  <aside class="notes">
+    Abrir con una idea: el crecimiento de CTC no se detuvo; lo que no alcanzó fue la estructura.
+    No venimos a vender software; venimos a ordenar la decisión. Los tres números del pie son el hilo de la presentación.
+  </aside>
+</section>
+
+<!-- ============ 02 · RESUMEN EJECUTIVO ============ -->
+<section id="resumen">
+  <div class="eyebrow anim">01 · Resumen ejecutivo <span class="dim">/ la tesis</span></div>
+  <h2 class="s-title anim d1">La operación creció.<br><em>El modelo operativo, no.</em></h2>
+  <p class="s-sub anim d2">CTC compite a escala nacional y regional. Pero la operación se sostiene con Excel, Drive, correo, memoria y en las personas: <strong>33 procesos documentados y 0 implementados</strong>.</p>
+
+  <div class="split-60" style="margin-top:4px">
+    <div class="stack-v">
+      <div class="card anim d1">
+        <h4>01 · Lo que ya no escala</h4>
+        <p>Más operación. Lo que antes se resolvía con coordinación local ahora es un cuello de botella.</p>
+      </div>
+      <div class="card anim d2">
+        <h4>02 · Lo que cuesta</h4>
+        <p><strong>30 horas extras por persona</strong>, facturación manual, inventario sin control e información que llega tarde.</p>
+      </div>
+      <div class="card anim d3">
+        <h4>03 · Lo que falta</h4>
+        <p>Un modelo operativo: responsabilidades con rol, procesos aprobados, gobierno de TI e información confiable y precisa.</p>
+      </div>
+      <div class="card anim d4">
+        <h4>04 · Lo que se juega</h4>
+        <p>Margen, cumplimiento de niveles de servicio y capacidad de crecimiento sostenido y balanceado.</p>
+      </div>
+    </div>
+
+    <div class="grid-2" style="gap:22px 18px; align-content:start">
+      <div class="kpi anim d2"><div class="n">33</div><div class="l">procesos documentados</div><div class="s">Diseño To-Be, versión 0.1</div></div>
+      <div class="kpi anim d3"><div class="n red">0</div><div class="l">implementados</div><div class="s">Ningún proceso firmado</div></div>
+      <div class="kpi anim d3"><div class="n">30<small>h</small></div><div class="l">extras por persona</div><div class="s">Síntoma de sobrecarga</div></div>
+      <div class="kpi anim d4"><div class="n">3</div><div class="l">almacenes</div><div class="s">MTY · GDL · CDMX</div></div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="divider"></div>
+  <div style="display:flex; justify-content:space-between; align-items:center; gap:24px">
+    <div class="mono lime">Resultado esperado</div>
+    <div class="tiny" style="max-width:92ch; text-align:right">Reducir riesgo operativo · incrementar eficiencia · mejorar la experiencia del cliente · priorizar inversiones de alto impacto.</div>
+  </div>
+
+  <aside class="notes">
+    Tres ideas: el crecimiento rompió el modelo de coordinación; el costo ya se paga en horas extras y reprocesos; lo que falta no es software, es sistema operativo.
+    No entrar todavía en herramientas.
+  </aside>
+</section>
+
+<!-- ============ 03 · DIAGNÓSTICO ============ -->
+<section id="tesis">
+  <div class="eyebrow anim">02 · El diagnóstico <span class="dim">/ una frase</span></div>
+
+  <div class="split-55" style="margin-top:6px">
+    <div class="anim d1">
+      <p class="quote">“No es falta de demanda.<br><em>Es falta de estructura.</em>”</p>
+      <div class="quote-src">Hallazgo HMV · 8 macroprocesos identificados, reunión de levantamiento y notas de campo</div>
+    </div>
+
+    <div class="stack-v">
+      <div class="card anim d2">
+        <h4>Volumen</h4>
+        <p>El incremento de la demanda supera la capacidad de atención disponible, afectando la eficiencia operativa, generando retrasos.</p>
+      </div>
+      <div class="card anim d3">
+        <h4>Complejidad</h4>
+        <p>Operación en 3 países, incremento en las líneas de servicio, tres almacenes, gestión de flota, facturación manual y centro de operaciones 24/7.</p>
+      </div>
+      <div class="card anim d4">
+        <h4>Dispersión</h4>
+        <p>Excel, Drive, correo y WhatsApp. La información existe, pero no se puede consultar ni auditar.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="note anim d5">El resultado: más retrabajo, más riesgo, menos margen. <strong>No es falta de presupuesto, talento ni tecnología.</strong></div>
+
+  <div class="ice-ratio anim d5">
+    <div class="ice-bar"><span style="width:10%"></span><span style="width:90%"></span></div>
+    <div class="ice-labels"><span>10 % visible · síntomas</span><span>90 % estructural · causas</span></div>
+  </div>
+
+  <aside class="notes">
+    Si el CEO se lleva una frase, que sea esta. Volumen, complejidad y dispersión explican por qué la operación se siente pesada aunque el negocio vaya bien.
+    La banda 10/90 viene de la causa raíz: solo el 10 % del problema se ve; el 90 % es estructural.
+  </aside>
+</section>
+
+<!-- ============ 04 · CADENA DE VALOR ============ -->
+<section id="mapa">
+  <div class="eyebrow anim">03 · Cadena de valor <span class="dim">/ eTOM</span></div>
+  <h2 class="s-title anim d1">La cadena de valor de CTC, <em>proceso por proceso.</em></h2>
+  <p class="s-sub anim d2">Alineada a <strong>eTOM</strong>, el modelo estándar de procesos para telecom. Los 33 procesos documentados ya embonan en estas seis etapas. Seis etapas de la cadena de valor; en el mapa eTOM, cada proceso vive en uno de ocho dominios.</p>
+
+  <div class="vc-band anim d2">
+    <div class="lbl">Dirección</div>
+    <div class="chips">
+      <span class="chip">Planeación estratégica</span>
+      <span class="chip">Gobierno corporativo</span>
+      <span class="chip">Gestión financiera</span>
+      <span class="chip">Gobierno de TI</span>
+    </div>
+  </div>
+
+  <div class="value-chain anim d3">
+    <div class="vc-stage">
+      <div class="vc-etom">Mercado y venta</div>
+      <h3>Comercialización</h3>
+      <div class="vc-proc">COM-001 · 002 · 003</div>
+      <div class="vc-desc">Lead, oportunidad y propuesta.</div>
+    </div>
+    <div class="vc-stage">
+      <div class="vc-etom">Producto y oferta</div>
+      <h3>Diseño e ingeniería</h3>
+      <div class="vc-proc">ING-001 · 002 · 003</div>
+      <div class="vc-desc">Factibilidad, solución y capacidad.</div>
+    </div>
+    <div class="vc-stage">
+      <div class="vc-etom">Cumplimiento</div>
+      <h3>Aprovisionamiento</h3>
+      <div class="vc-proc">ENT-001 · 002 · REC-001</div>
+      <div class="vc-desc">Pedido, recursos y proveedores.</div>
+    </div>
+    <div class="vc-stage">
+      <div class="vc-etom">Aseguramiento</div>
+      <h3>Operación</h3>
+      <div class="vc-proc">OPS-001 a 005</div>
+      <div class="vc-desc">Ejecución, seguimiento y cambios.</div>
+    </div>
+    <div class="vc-stage">
+      <div class="vc-etom">Cliente</div>
+      <h3>Atención y soporte</h3>
+      <div class="vc-proc">COM-004 · OPS-002</div>
+      <div class="vc-desc">Incidentes, niveles de servicio y experiencia del cliente.</div>
+    </div>
+    <div class="vc-stage">
+      <div class="vc-etom">Facturación</div>
+      <h3>Facturación y cobranza</h3>
+      <div class="vc-proc">FAC-001 · 002 · FIN-001 · 002</div>
+      <div class="vc-desc">Alta, factura, cobro y conciliación.</div>
+    </div>
+  </div>
+
+  <div class="vc-band anim d4">
+    <div class="lbl">Apoyo</div>
+    <div class="chips">
+      <span class="chip">Recursos Humanos</span>
+      <span class="chip">Compras</span>
+      <span class="chip">Almacén</span>
+      <span class="chip">Infraestructura</span>
+      <span class="chip">Seguridad</span>
+      <span class="chip">Jurídico</span>
+      <span class="chip">Calidad</span>
+      <span class="chip">Gestión documental</span>
+    </div>
+  </div>
+
+  <div class="note anim d5" style="margin-top:10px"><strong>33 procesos documentados · 6 etapas · 0 aprobados.</strong></div>
+
+  <aside class="notes">
+    No perderse en la taxonomía. El mensaje: CTC ya sabe cuál es su cadena de valor y sus procesos embonan en eTOM; lo que no tiene es un modelo estructurado de ejecucion y gobernanza.
+    El pase a pruebas (QA) se pausa a propósito: primero se aprueban procesos y datos.
+    Los códigos corresponden a la lista de 33 procesos; la rejilla completa está en el anexo A.
+  </aside>
+</section>
+
+<!-- ============ 05 · GAP ANALYSIS ============ -->
+<section id="gap">
+  <div class="eyebrow anim">04 · GAP Analysis <span class="dim">/ madurez · riesgo · prioridad</span></div>
+  <h2 class="s-title anim d1">Ocho macroprocesos. <em>Cuatro prioridades críticas.</em></h2>
+  <p class="s-sub anim d2">La madurez se mide con evidencia, no con documentos. Cuatro procesos concentran el riesgo operativo y la decisión de inversión.</p>
+  <p class="s-sub anim d2"><strong>Nota:</strong> este análisis se basa en un primer levantamiento de necesidades, no en una evaluación completa ni definitiva; se ajustará en la medida que se recabe más información.</p>
+  
+
+  <table class="gap-table anim d2">
+    <thead>
+      <tr>
+        <th style="width:21%">Macroproceso</th>
+        <th style="width:13%">Madurez</th>
+        <th style="width:11%">Riesgo</th>
+        <th style="width:11%">Prioridad</th>
+        <th>Evidencia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name">Comercial</td>
+        <td><span class="dots amber"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> <span class="tiny">2/5</span></td>
+        <td><span class="badge medium">Medio</span></td>
+        <td><span class="badge high">Alta</span></td>
+        <td class="ev">CRM no funcional; propuestas y seguimiento en Excel.</td>
+      </tr>
+      <tr class="high">
+        <td class="name">Ingeniería</td>
+        <td><span class="dots amber"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> <span class="tiny">2/5</span></td>
+        <td><span class="badge high">Alto</span></td>
+        <td><span class="badge high">Alta</span></td>
+        <td class="ev">Inventario de almacén en implementación; inventario de red y configuración pendientes.</td>
+      </tr>
+      <tr class="critical">
+        <td class="name">Aprovisionamiento</td>
+        <td><span class="dots red"><i class="on"></i><i></i><i></i><i></i><i></i></span> <span class="tiny">1/5</span></td>
+        <td><span class="badge high">Alto</span></td>
+        <td><span class="badge critical">Crítica</span></td>
+        <td class="ev">Tres almacenes; salidas sin control; resurtido manual.</td>
+      </tr>
+      <tr>
+        <td class="name">Operación</td>
+        <td><span class="dots amber"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> <span class="tiny">2/5</span></td>
+        <td><span class="badge medium">Medio</span></td>
+        <td><span class="badge high">Alta</span></td>
+        <td class="ev">El centro de operaciones calcula topología e IPs a mano.</td>
+      </tr>
+      <tr class="critical">
+        <td class="name">Atención a Clientes</td>
+        <td><span class="dots red"><i class="on"></i><i></i><i></i><i></i><i></i></span> <span class="tiny">1/5</span></td>
+        <td><span class="badge high">Alto</span></td>
+        <td><span class="badge critical">Crítica</span></td>
+        <td class="ev">Tickets en Drive; acuerdos de servicio sin dato.</td>
+      </tr>
+      <tr class="high">
+        <td class="name">Facturación</td>
+        <td><span class="dots amber"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span> <span class="tiny">2/5</span></td>
+        <td><span class="badge high">Alto</span></td>
+        <td><span class="badge high">Alta</span></td>
+        <td class="ev">Facturas manuales; Aspel NOI; cobranza manual.</td>
+      </tr>
+      <tr class="critical">
+        <td class="name">Gobierno TI</td>
+        <td><span class="dots red"><i class="on"></i><i></i><i></i><i></i><i></i></span> <span class="tiny">1/5</span></td>
+        <td><span class="badge critical">Muy alto</span></td>
+        <td><span class="badge critical">Crítica</span></td>
+        <td class="ev">Procesos objetivo documentados, sin implementar; función vacante.</td>
+      </tr>
+      <tr class="critical">
+        <td class="name">Seguridad</td>
+        <td><span class="dots red"><i class="on"></i><i></i><i></i><i></i><i></i></span> <span class="tiny">1/5</span></td>
+        <td><span class="badge critical">Muy alto</span></td>
+        <td><span class="badge critical">Crítica</span></td>
+        <td class="ev">Sin protección de datos: todos acceden a todo; sin roles ni permisos.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="gap-insights anim d3">
+    <div class="gi"><b>Aprovisionamiento</b><span>Tres almacenes; salidas sin control; resurtido manual.</span></div>
+    <div class="gi"><b>Atención a Clientes</b><span>Tickets en Drive; acuerdos de servicio sin dato.</span></div>
+    <div class="gi"><b>Gobierno TI</b><span>Procesos objetivo documentados, sin implementar.</span></div>
+    <div class="gi"><b>Seguridad</b><span>Sin roles, permisos ni protección de datos.</span></div>
+  </div>
+
+  <div style="display:flex; justify-content:space-between; gap:20px; align-items:center; margin-top:14px">
+    <div class="tiny">Escala de madurez: 1 = incipiente · 5 = optimizado. Valoración HMV sobre evidencia documental.</div>
+    <div class="tiny"><span class="lime">Crítica:</span> Aprovisionamiento · Atención · Gobierno TI · Seguridad.</div>
+  </div>
+
+  <aside class="notes">
+    No leer toda la tabla. Señalar las cuatro críticas y su evidencia: almacenes, tickets, procesos objetivo sin implementar y accesos sin roles.
+    Comercial e Ingeniería son “altas”: no se ignoran, pero no son la primera decisión.
+  </aside>
+</section>
+
+<!-- ============ 06 · MADUREZ ============ -->
+<section id="madurez">
+  <div class="eyebrow anim">05 · Madurez <span class="dim">/ diseño vs. ejecución</span></div>
+  <h2 class="s-title anim d1">El diseño está. <em>La decisión, no.</em></h2>
+  <p class="s-sub anim d2">33 procesos documentados, 0 implementados. Hay iniciativas en marcha, pero no un modelo de ejecución y gobernanza.</p>
+
+  <div class="split-55" style="margin-top:8px">
+    <div class="anim d2">
+      <div class="num-big">33</div>
+      <div class="mono" style="margin-top:4px">procesos documentados</div>
+      <div class="pill red" style="margin-top:10px">0 implementados</div>
+
+      <div style="margin-top:18px">
+        <div class="mono tiny">Aprobación formal</div>
+        <div class="read-bar"><span style="width:100%; background:#F6E4DE"></span><span style="width:0%; background:var(--terracotta)"></span></div>
+        <div class="read-labels"><span>0 %</span><span>100 %</span></div>
+      </div>
+
+      <div style="margin-top:18px">
+        <div class="mono tiny">Implementación formal</div>
+        <div class="read-bar"><span style="width:100%; background:#F6E4DE"></span><span style="width:0%; background:var(--terracotta)"></span></div>
+        <div class="read-labels"><span>0 %</span><span>100 %</span></div>
+      </div>
+    </div>
+
+    <div class="gap-grid anim d3">
+      <div class="gap-card"><b>0</b><span>Implementados</span><small>Sin operación formal</small></div>
+      <div class="gap-card"><b>0</b><span>Flujos modelados</span><small>Sin diagrama</small></div>
+      <div class="gap-card"><b>0</b><span>Modelo de datos</span><small>Sin entidades ni claves</small></div>
+      <div class="gap-card"><b>0</b><span>Interfaces</span><small>Sin contrato de integración</small></div>
+      <div class="gap-card"><b>0</b><span>Línea base</span><small>Sin diagnóstico actual</small></div>
+      <div class="gap-card"><b>0</b><span>Titular de gobierno TI</span><small>Función vacante</small></div>
+    </div>
+  </div>
+
+  <div class="mono lime anim d4" style="margin-top:16px">Lo que ya existe</div>
+  <div class="strengths anim d4">
+    <div class="st"><b class="txt">Ingresos altos</b><span>operación rentable</span></div>
+    <div class="st"><b class="txt">Inversión</b><span>en mejora continua</span></div>
+    <div class="st"><b>2</b><span>iniciativas activas</span></div>
+    <div class="st"><b class="txt">Red propia</b><span>cobertura y clientes</span></div>
+  </div>
+
+  <div class="note anim d5" style="margin-top:10px">Iniciativas activas: inventario de almacén en implementación y tablero de control. <strong>Hay avance, pero no sistema.</strong> Sin procesos aprobados, el conocimiento vive en las personas: se va una persona, se va el proceso. Y el costo — horas extras, fuga de ingreso, retrabajo — no está en el presupuesto, pero se paga todos los meses.</div>
+
+  <aside class="notes">
+    Este es el argumento más fuerte contra comprar ya: hay diseño y hay iniciativas, pero no aprobación ni implementación formal.
+    Sin modelo de datos e interfaces, cualquier herramienta se configura sobre supuestos.
+    Sin proceso aprobado, el conocimiento vive en las personas: si se va una persona, se va el proceso.
+  </aside>
+</section>
+
+<!-- ============ 07 · DECISIÓN TECNOLÓGICA ============ -->
+<section id="arquitectura">
+  <div class="eyebrow anim">06 · Decisión tecnológica <span class="dim">/ proceso primero</span></div>
+  <h2 class="s-title anim d1">La herramienta <em>no arregla el proceso.</em></h2>
+  <p class="s-sub anim d2">Una herramienta comprada antes de rediseñar el proceso termina igual que las que ya no se usan: costó, no se adoptó y no cambió el resultado.</p>
+
+  <div class="split-55" style="margin-top:8px">
+    <div class="arch anim d2">
+      <div class="stack-v">
+      <div class="card anim d3">
+        <h4>La regla</h4>
+        <p><strong>Proceso primero, dato después, herramienta al final.</strong> La tecnología correcta no compensa un proceso que nadie decidió.</p>
+      </div>
+      <div class="card anim d4">
+        <h4>Implementación apresurada</h4>
+        <p>Mismo destino que las herramientas que ya no se usan. <strong>Sin proceso, la herramienta solo digitaliza el desorden.</strong></p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arch anim d5">
+    <div class="layer erp">
+      <div class="k">ERP</div>
+      <div class="v">El sistema administrativo de la empresa.<small>Facturación, compras, contabilidad y almacén en un solo lugar. Registra lo que se decidió; no decide cómo se trabaja.</small></div>
+    </div>
+    <div class="layer oss">
+      <div class="k">OSS</div>
+      <div class="v">Los sistemas que gobiernan la red.<small>Inventario de fibra y equipos, configuración y monitoreo. Sin inventario de red, el OSS no tiene qué gobernar.</small></div>
+    </div>
+  </div>
+
+  <div class="note anim d5" style="margin-top:12px"><strong>Regla de oro:</strong> si la herramienta no cambia una decisión, un costo o un tiempo, no es transformación: es un gasto.</div>
+
+  <div class="note anim d5" style="margin-top:10px">La mayoría de estos dolores no se resuelve comprando un ERP: se resuelve con datos, procesos y gobierno. El ERP solo hace visible la mejora.</div>
+
+  <aside class="notes">
+    Aquí se responde “¿qué compramos?” sin nombrar una marca: primero se define el proceso y el dato; después la capa tecnológica.
+    ERP y OSS van en palabras llanas en la diapositiva: el ERP es el sistema administrativo; el OSS, los sistemas que gobiernan la red.
+  </aside>
+</section>
+
+<!-- ============ 08 · LOS 6 MARCOS ============ -->
+<section id="marcos">
+  <div class="eyebrow anim">07 · Los 6 marcos <span class="dim">/ qué hace cada uno</span></div>
+  <h2 class="s-title anim d1">Seis marcos. <em>Un solo método.</em></h2>
+  <p class="s-sub anim d2">Nada de siglas sin traducir: cada marco dice qué hace, qué le da al CEO y qué produce. El detalle vive en el tablero Excalidraw.</p>
+
+  <div class="grid-3" style="margin-top:8px">
+    <div class="card anim d1">
+      <h4>eTOM</h4>
+      <p>El mapa estándar de procesos de telecom: qué procesos existen y dónde vive cada uno.</p>
+      <div class="note" style="margin-top:8px">Para el CEO: ningún proceso sin dueño ni lugar. <b>Produce:</b> 33 procesos en 8 dominios.</div>
+    </div>
+    <div class="card anim d2">
+      <h4>TOGAF 10</h4>
+      <p>El método para diseñar la arquitectura de la empresa: del estado actual al objetivo, por iteraciones.</p>
+      <div class="note" style="margin-top:8px">Para el CEO: cada peso en tecnología tiene un plano antes de gastarse. <b>Produce:</b> arquitectura objetivo + plan de migración.</div>
+    </div>
+    <div class="card anim d3">
+      <h4>Scrum@Scale</h4>
+      <p>La cadencia de coordinación: reunión diaria de 15 min (SoS) y comité quincenal (EAT).</p>
+      <div class="note" style="margin-top:8px">Para el CEO: los 32 saben cada día qué está atorado y quién decide. <b>Produce:</b> decisiones semanales, no mensuales.</div>
+    </div>
+    <div class="card anim d1">
+      <h4>Kanban</h4>
+      <p>El trabajo visible en un tablero: qué está en curso, qué está atorado, cuánto tarda.</p>
+      <div class="note" style="margin-top:8px">Para el CEO: ver el flujo sin pedir reportes. <b>Produce:</b> lead time y throughput medidos.</div>
+    </div>
+    <div class="card anim d2">
+      <h4>ITIL</h4>
+      <p>La operación del servicio con disciplina: incidentes, problemas, cambios y mejora continua.</p>
+      <div class="note" style="margin-top:8px">Para el CEO: un incidente no depende de a quién se le ocurra llamar. <b>Produce:</b> incidentes y cambios con responsable y registro.</div>
+    </div>
+    <div class="card anim d3">
+      <h4>ISO/IEC 42001</h4>
+      <p>Las reglas para usar IA con control: riesgos, controles y supervisión humana.</p>
+      <div class="note" style="margin-top:8px">Para el CEO: la IA ayuda sin poner en riesgo datos ni clientes. <b>Produce:</b> piloto de IA con revisión humana.</div>
+    </div>
+  </div>
+
+  <aside class="notes">
+    Seis marcos, un solo método. Si el CEO pregunta por qué tantos: cada uno responde una pregunta distinta — qué procesos hay, hacia dónde va la arquitectura, cómo se coordina el trabajo, cómo se ve, cómo se opera el servicio y cómo se usa la IA con control.
+    Otros marcos de referencia quedan en el tablero Excalidraw, no en el deck.
+  </aside>
+</section>
+
+<!-- ============ 09 · SOLUCIÓN HÍBRIDA ============ -->
+<section id="hibrida">
+  <div class="eyebrow anim">08 · Solución híbrida <span class="dim">/ la oferta tecnológica</span></div>
+  <h2 class="s-title anim d1">Resultados en 30 días. <em>Escala en 12 meses.</em></h2>
+  <p class="s-sub anim d2">No apostamos a una sola herramienta. Combinamos acción inmediata, inteligencia artificial, software a medida e integraciones para atacar lo crítico sin frenar la operación.</p>
+
+  <div class="pillars anim d3">
+    <div class="pillar">
+      <div class="tag">Acción inmediata</div>
+      <div class="n">01</div>
+      <h3>Jira</h3>
+      <p>Tickets, proyectos y acuerdos de servicio en semanas, no en meses.</p>
+      <div class="impact">Primer resultado en 30 días</div>
+    </div>
+    <div class="pillar">
+      <div class="tag">Procesos críticos</div>
+      <div class="n">02</div>
+      <h3>Agentes de IA</h3>
+      <p>Clasificación, atención, resúmenes y decisiones asistidas con control humano.</p>
+      <div class="impact">Menos tiempo operativo</div>
+    </div>
+    <div class="pillar">
+      <div class="tag">Procesos normalizados</div>
+      <div class="n">03</div>
+      <h3>Software</h3>
+      <p>Donde el producto no encaja: red, inventario y flujos específicos.</p>
+      <div class="impact">Diferenciación real</div>
+    </div>
+    <div class="pillar">
+      <div class="tag">Todo conectado</div>
+      <div class="n">04</div>
+      <h3>Integraciones</h3>
+      <p>Software, Operaciones, red y datos hablando el mismo idioma.</p>
+      <div class="impact">Una sola verdad</div>
+    </div>
+  </div>
+
+  <div class="hybrid-band anim d4">
+    <div class="hybrid-step"><span>30 días</span><b>Flujo visible</b><em>Jira en los 2 procesos críticos.</em></div>
+    <div class="hybrid-step"><span>60 días</span><b>Piloto de IA operando</b><em>Triaje y clasificación con revisión humana.</em></div>
+    <div class="hybrid-step"><span>12 meses</span><b>Escala por olas</b><em>Software a medida e integraciones donde aportan.</em></div>
+  </div>
+
+  <div class="note anim d5" style="margin-top:12px"><strong>No es una promesa: es una secuencia.</strong> La tecnología correcta, en el proceso correcto, en el orden correcto.</div>
+
+  <aside class="notes">
+    Esta es la oferta tecnológica de HMV: híbrida y por capas. Jira para acción inmediata y visible; IA en procesos críticos; software a medida en procesos normalizados; APIs para conectar todo.
+    No se trata de reemplazar todo: se trata de atacar primero lo que más duele y escalar con evidencia.
+  </aside>
+</section>
+
+<!-- ============ 10 · PROPUESTA 1: 8 SEMANAS ============ -->
+<section id="propuesta-1">
+  <div class="eyebrow anim">09 · Propuesta 1 <span class="dim">/ 8 semanas, con compuertas</span></div>
+  <h2 class="s-title anim d1">Propuesta 1: ocho semanas. <em>Cinco fases, cinco salidas.</em></h2>
+  <p class="s-sub anim d2">Cada fase cierra con una salida verificable; si no se cumple, no se avanza. Es el arranque: la Propuesta 2 se decide en el corte de la semana 8.</p>
+
+  <div class="phases anim d2" style="margin-top:10px; grid-template-columns:repeat(5,1fr)">
+    <div class="phase anim d1">
+      <div class="ph">Fase 0</div>
+      <h3>Gobernanza mínima</h3>
+      <ul class="mini" style="margin-top:4px">
+        <li>Matriz de decisión</li>
+        <li>Datos en 3 niveles</li>
+        <li>Plan de gobernanza</li>
+      </ul>
+      <div class="dur">Semana 0 · 3–5 días</div>
+    </div>
+    <div class="phase anim d2">
+      <div class="ph">Fase 1</div>
+      <h3>Diagnóstico</h3>
+      <ul class="mini" style="margin-top:4px">
+        <li>Cuestionario, 32 personas</li>
+        <li>VSM de operación</li>
+        <li>Datos del piloto limpios</li>
+      </ul>
+      <div class="dur">Semanas 1–2</div>
+    </div>
+    <div class="phase anim d3">
+      <div class="ph">Fase 2</div>
+      <h3>Flujo visible</h3>
+      <ul class="mini" style="margin-top:4px">
+        <li>Kanban en Jira, 2 procesos</li>
+        <li>Importación vía CSV</li>
+        <li>Límites de WIP</li>
+      </ul>
+      <div class="dur">Semanas 3–4</div>
+    </div>
+    <div class="phase anim d4">
+      <div class="ph">Fase 3</div>
+      <h3>Ritmo y coordinación</h3>
+      <ul class="mini" style="margin-top:4px">
+        <li>SoS diario (15 min)</li>
+        <li>EAT quincenal</li>
+        <li>Portal de procesos</li>
+      </ul>
+      <div class="dur">Semanas 5–6</div>
+    </div>
+    <div class="phase anim d5">
+      <div class="ph">Fase 4</div>
+      <h3>Medición y piloto IA</h3>
+      <ul class="mini" style="margin-top:4px">
+        <li>Lead time y throughput</li>
+        <li>Túnel de trabajo</li>
+        <li>Piloto IA: triaje</li>
+      </ul>
+      <div class="dur">Semanas 7–8</div>
+    </div>
+  </div>
+
+  <div class="phase-gates anim d5" style="grid-template-columns:repeat(5,1fr)">
+    <div><span>Salida 0</span><b>Plan aprobado y dueño nombrado</b></div>
+    <div><span>Salida 1</span><b>Diagnóstico con hallazgos priorizados</b></div>
+    <div><span>Salida 2</span><b>≥70 % del trabajo en Jira</b></div>
+    <div><span>Salida 3</span><b>SoS y EAT con cadencia</b></div>
+    <div><span>Salida 4</span><b>Línea base + piloto IA operando</b></div>
+  </div>
+
+  <div class="note anim d5" style="margin-top:14px"><strong>El pase a pruebas (QA) se pausa hasta que la fase 0 cierre.</strong> Sin procesos y datos aprobados, la herramienta hereda el problema.</div>
+
+  <div class="note anim d5" style="margin-top:10px"><strong>En palabras llanas:</strong> Jira es el tablero donde vive el trabajo; Kanban es ver el trabajo en ese tablero; VSM es el mapa del flujo real de un proceso; WIP es cuánto trabajo hay en curso a la vez; lead time es cuánto tarda un trabajo de principio a fin; throughput es cuántos trabajos se terminan por semana; el túnel de trabajo es la cola priorizada — lo que entra, se analiza y se aprueba; SoS es la coordinación diaria de 15 minutos entre equipos; EAT es el comité quincenal que prioriza el trabajo.</div>
+
+  <div class="note anim d5" style="margin-top:10px"><strong>Corte de la semana 8:</strong> Jira ≥80 % (desde ≥70 % en la semana 4), lead time medido, 1 piloto IA operando. Ahí se decide la Propuesta 2.</div>
+
+  <aside class="notes">
+    El orden no es negociable: primero se decide y se gobierna; después se diagnostica; luego el flujo se hace visible; después la cadencia; al final se mide y se pilota la IA.
+    Ocho semanas con compuertas: cada fase cierra con una salida verificable; si una salida no se cumple, no se avanza. No hay atajos: el “quick win” sin proceso es otro parche.
+    Los términos se definen en la diapositiva, en palabras llanas. En el corte de la semana 8 se decide la Propuesta 2.
+  </aside>
+</section>
+
+<!-- ============ 11 · PROPUESTA 2: 12 MESES ============ -->
+<section id="propuesta-2">
+  <div class="eyebrow anim">10 · Propuesta 2 <span class="dim">/ 12 meses, el camino completo</span></div>
+  <h2 class="s-title anim d1">Propuesta 2: doce meses. <em>El modelo operativo completo.</em></h2>
+  <p class="s-sub anim d2">La Propuesta 1 es el arranque; esta es la implementación completa: los 33 procesos definidos a Nivel 3 de detalle, con transferencia al equipo interno de CTC.</p>
+
+  <div class="prio anim d3" style="margin-top:8px">
+    <div class="prio-col">
+      <div class="h">Mes 1–4</div>
+      <h3>Cimentar</h3>
+      <ul>
+        <li>Equipo de 32 organizado: dueños de proceso nombrados según RACI y capacitados</li>
+        <li>eTOM Nivel 3 en 6 procesos (C1)</li>
+        <li>ITIL: incidentes y solicitudes, con catálogo de servicios (C2)</li>
+        <li>IA: inventario de usos y riesgos evaluados (C3)</li>
+      </ul>
+      <div class="out">Salida: 6 procesos en Jira con SLA medidos</div>
+    </div>
+    <div class="prio-col mid">
+      <div class="h">Mes 5–8</div>
+      <h3>Escalar</h3>
+      <ul>
+        <li>eTOM Nivel 3 en los 33 procesos (C1)</li>
+        <li>Kanban en todos los procesos, con límites de trabajo en curso (C2)</li>
+        <li>ITIL: problemas, cambios y niveles de servicio operando (C2)</li>
+        <li>IA: controles del Anexo A y segundo piloto (C3)</li>
+      </ul>
+      <div class="out">Salida: 33 procesos con Nivel 3 y métricas de flujo</div>
+    </div>
+    <div class="prio-col long">
+      <div class="h">Mes 9–12</div>
+      <h3>Sostener y transferir</h3>
+      <ul>
+        <li>Mapa y catálogo vivos en el Portal de procesos (C1)</li>
+        <li>SoS y EAT con presidencia interna (C2)</li>
+        <li>IA: auditoría interna y triaje en producción plena (C3)</li>
+        <li>ERP: decisión en mes 10–12 (C1 + C3)</li>
+      </ul>
+      <div class="out">Salida: el equipo interno de CTC opera sin HMV</div>
+    </div>
+  </div>
+
+  <div class="note anim d4" style="margin-top:14px">3 consultores de HMV, las mismas personas de la Propuesta 1: <strong>C1</strong> Arquitecto empresarial · <strong>C2</strong> Líder de operación y servicio · <strong>C3</strong> Gobernanza de datos e IA. Equipo interno de CTC: 32 personas.</div>
+
+  <div class="anim d5" style="margin-top:10px; border:1px dashed var(--line); border-radius:3px; padding:10px 14px; font-size:13.5px; color:var(--muted)">Mes 13–18 (opcional): implantación del ERP sobre lo ya normado — fuera del compromiso de 12 meses.</div>
+
+  <div class="note anim d5" style="margin-top:10px"><strong>Transferimos capacidad, no creamos dependencia.</strong></div>
+
+  <aside class="notes">
+    La Propuesta 2 es el camino completo; se decide en el corte de la semana 8, con la evidencia de la Propuesta 1 en mano.
+    Nivel 3: cada proceso documentado a nivel de detalle operativo, con dueño y métricas.
+    El ERP no se implanta dentro de los 12 meses: en mes 10–12 solo se decide, y su implantación queda como extensión opcional (mes 13–18) sobre lo ya normado.
+    El detalle por proceso y por marco vive en el tablero Excalidraw (Vista 10).
+  </aside>
+</section>
+
+<!-- ============ 12 · POR QUÉ HMV ============ -->
+<!-- ============ 12 · POR QUÉ HMV ============ -->
+<section id="por-que-hmv">
+  <div class="eyebrow anim">11 · Por qué HMV <span class="dim">/ un solo equipo</span></div>
+  <h2 class="s-title anim d1">Ejecutamos. <em>No solo diagnosticamos.</em></h2>
+  <p class="s-sub anim d2">Un solo equipo, un solo plan, un solo responsable: CTC no orquesta proveedores. La diferencia entre un informe y un sistema operativo es quién se queda a implementarlo.</p>
+
+  <div class="grid-4" style="margin-top:8px">
+    <div class="card anim d1">
+      <h4>Ejecutamos y asesoramos</h4>
+      <p>No entregamos un informe y nos retiramos. Los 3 consultores implementan, capacitan y acompañan.</p>
+    </div>
+    <div class="card anim d2">
+      <h4>Un solo equipo</h4>
+      <p>Procesos, personas, datos y gobierno en una sola mirada. Jira, automatización, portales e IA trabajando como un solo sistema, no como piezas sueltas.</p>
+    </div>
+    <div class="card anim d3">
+      <h4>IA con gobernanza</h4>
+      <p>No vendemos IA como espectáculo; instalamos gobernanza para que la IA sea posible y segura.</p>
+    </div>
+    <div class="card anim d4">
+      <h4>Transferencia de capacidad</h4>
+      <p>Cuando HMV se retira, CTC opera, capacita y mejora por sí mismo. Los sistemas desarrollados a medida son de CTC.</p>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="note anim d5" style="margin-top:12px"><strong>El éxito del proyecto se mide cuando CTC ya no nos necesita.</strong></div>
+
+  <aside class="notes">
+    Cuatro frases, sin adornos. Si el CEO pregunta por qué HMV y no otra consultora, la respuesta es esta diapositiva: implementamos, no solo diagnosticamos, y el objetivo es que no nos necesiten.
+    Y si pregunta por qué un solo socio y no varios especialistas: coordinar proveedores cuesta tiempo, dinero y riesgo, y nadie se hace responsable del resultado completo. HMV orquesta todo con un solo equipo y un solo responsable.
+  </aside>
+</section>
+
+<!-- ============ 13 · EQUIPO Y SUPUESTOS ============ -->
+<section id="equipo">
+  <div class="eyebrow anim">12 · Equipo y supuestos <span class="dim">/ quién hace qué y qué se necesita</span></div>
+  <h2 class="s-title anim d1">El equipo, y lo que <em>CTC pone.</em></h2>
+  <p class="s-sub anim d2">Tres consultores de HMV, las mismas personas en las dos propuestas. Del lado CTC, el equipo son 32 personas; dos roles dedicados son condición, no preferencia.</p>
+
+  <div class="split-55" style="margin-top:6px">
+    <div class="anim d2">
+      <table class="gap-table">
+        <thead>
+          <tr>
+            <th style="width:34%">Consultor HMV</th>
+            <th>Responsabilidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="name">C1 · Arquitecto empresarial</td>
+            <td class="ev">Procesos y arquitectura: VSM, eTOM, estandarización, mapa de fricción y plan de migración.</td>
+          </tr>
+          <tr>
+            <td class="name">C2 · Líder de operación y servicio</td>
+            <td class="ev">Jira y ritmo: tableros, importación, permisos, métricas de flujo, SoS y EAT, ITIL.</td>
+          </tr>
+          <tr>
+            <td class="name">C3 · Gobernanza de datos e IA</td>
+            <td class="ev">Datos e IA: capacitación, gestión de resistencia al Excel, política de IA y gobernanza de datos.</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="note anim d3" style="margin-top:12px"><strong>Del equipo de 32 de CTC, dos roles dedicados son condición: 1 dueño operativo del tablero y 1 capturador/analista de evidencia en campo para instalaciones. Sin estas dos personas, el cambio se cae al mes 3.</strong></div>
+    </div>
+
+    <div class="stack-v anim d3">
+      <div class="card">
+        <h4>Supuestos</h4>
+        <ul class="mini">
+          <li>CTC proporciona acceso a los Excel y a las personas clave para el VSM.</li>
+          <li>El CEO asiste al EAT quincenal o delega con autoridad de decisión.</li>
+          <li>Jira Cloud es viable tras la clasificación de datos de la Fase 0.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Exclusiones</h4>
+        <ul class="mini">
+          <li>Licencias de Jira (por separado).</li>
+          <li>Integraciones con ERP/CRM existentes (se evalúan en Fase 2).</li>
+          <li>Implementación completa de eTOM (solo vocabulario en esta fase).</li>
+          <li>Automatizaciones fuera del piloto acotado de IA.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <aside class="notes">
+    Decir en voz alta la línea de los dos roles dedicados: es la condición más incómoda y la más importante.
+    Si CTC no las asigna, el proyecto no se vende como “8 semanas y listo”: se pausa o se recorta el alcance, y eso se dice ahora, no en el mes 3.
+  </aside>
+</section>
+
+<!-- ============ 14 · DECISIONES ============ -->
+<section id="decisiones">
+  <div class="eyebrow anim">13 · Decisiones <span class="dim">/ lo que se pide al CEO</span></div>
+  <h2 class="s-title anim d1">Cinco decisiones. </h2>
+  <p class="s-sub anim d2">No se pide aprobar un proyecto: se piden cinco decisiones concretas con fecha y responsable.</p>
+
+  <div class="decisions" style="margin-top:8px">
+    <div class="decision anim d1">
+      <div class="num">1</div>
+      <div class="txt"><b>Aprobar la fase 0: gobernanza mínima y arranque</b><small>Matriz de decisión, datos clasificados y plan de gobernanza.</small></div>
+    </div>
+    <div class="decision anim d2">
+      <div class="num">2</div>
+      <div class="txt"><b>Nombrar responsables de proceso, dato y gobierno de TI</b><small>Un nombre por proceso y por dominio de dato.</small></div>
+      
+    </div>
+    <div class="decision anim d3">
+      <div class="num">3</div>
+      <div class="txt"><b>Liberar 25–40 % del tiempo de los responsables de proceso y usuarios clave</b><small>Durante las 8 semanas del arranque; se revisa en el corte de la semana 8.</small></div>
+      
+    </div>
+    <div class="decision anim d4">
+      <div class="num">4</div>
+      <div class="txt"><b>Mandatar una sola fuente de verdad</b><small>Excel deja de ser sistema; vuelve a ser herramienta.</small></div>
+      
+    </div>
+    <div class="decision anim d5">
+      <div class="num">5</div>
+      <div class="txt"><b>Aprobar el piloto de IA en la fase 4 y el comité</b><small>Triaje y clasificación con revisión humana, en paralelo a la operación.</small></div>
+      
+    </div>
+  </div>
+
+  <div class="note anim d5" style="margin-top:14px"><strong>Opción de arranque reducido:</strong> solo Fase 0 + Fase 1, y decidir con el informe de diagnóstico en mano. La cotización se ajusta al corte.</div>
+
+  <div class="note anim d5" style="margin-top:10px"><strong>La fecha de arranque es una decisión:</strong> la Fase 0 arranca en la semana siguiente a la aprobación del CEO.</div>
+
+  <aside class="notes">
+    Esta es la diapositiva de cierre comercial. No pedir “aprobación del proyecto”: pedir cinco decisiones concretas con fecha.
+    Si el CEO solo puede firmar una, que sea la 1 y la 2.
+    La fecha de arranque se decide hoy; no es un hecho.
+  </aside>
+</section>
+
+<!-- ============ 15 · CIERRE ============ -->
+<section id="cierre">
+  <div class="eyebrow anim">Cierre</div>
+
+  <p class="quote anim d1" style="font-size:50px; max-width:27ch">El siguiente paso no es comprar más software. <em>Es construir el sistema operativo de CTC.</em></p>
+
+  <p class="body anim d3" style="max-width:72ch; font-size:17.5px">Procesos, datos y gobierno primero. Tecnología después. Resultados en 30 días, escala en 12 meses.</p>
+
+  <div class="note anim d4" style="margin-top:18px">Todo queda en el <strong>Portal de procesos</strong>: el mapa vivo donde vive la operación de CTC.</div>
+
+  <div class="closing anim d4">
+    <div class="closing-cta">
+      <div class="mono lime">Siguiente paso</div>
+      <h3>Arrancar la Fase 0 en la semana siguiente a la aprobación del CEO.</h3>
+      <p>Flujo visible en 30 días. Piloto de IA en 60 días.</p>
+    </div>
+    <div class="closing-contact">
+    </div>
+  </div>
+
+  <div class="closing-logos anim d5">
+    <img class="ctc" src="assets/ctc-logo-ink.png" alt="CTC Telecom">
+    <span class="x">×</span>
+    <img class="hmv" src="assets/logo.png" alt="HMV Soluciones">
+  </div>
+
+  <aside class="notes">
+    Cerrar con la frase y el siguiente paso. No agregar más datos: la decisión ya está planteada.
+    La fecha de arranque se decide hoy; no es un hecho.
+  </aside>
+</section>
+
+<!-- ============ ANEXO A · PROCESOS EN eTOM ============ -->
+<section id="etom">
+  <div class="eyebrow anim">Anexo A · Procesos en eTOM <span class="dim">/ dónde embona cada uno</span></div>
+  <h2 class="s-title anim d1">33 procesos. <em>Un solo mapa.</em></h2>
+  <p class="s-sub anim d2">Cada proceso documentado tiene un dominio principal en eTOM (Enhanced Telecom Operations Map). Los 5 mapas de referencia (MOP-001 a 005) complementan el modelo: 33 procesos.</p>
+
+  <div class="etom-grid anim d3">
+    <div class="etom-col">
+      <div class="etom-block">
+        <h4>Mercado y venta <span>· Market/Sell</span></h4>
+        <div class="etom-item"><b>COM-001</b><span>Gestión de oportunidades</span></div>
+        <div class="etom-item"><b>COM-002</b><span>Cuentas corporativas y renovaciones</span></div>
+        <div class="etom-item"><b>COM-005</b><span>Propuestas y negociación</span></div>
+      </div>
+      <div class="etom-block">
+        <h4>Producto y oferta <span>· Product/Offer</span></h4>
+        <div class="etom-item"><b>PRD-001</b><span>Catálogo y ciclo de vida</span></div>
+        <div class="etom-item"><b>PRD-002</b><span>Costeo, precios y margen</span></div>
+      </div>
+      <div class="etom-block">
+        <h4>Cumplimiento <span>· Fulfillment</span></h4>
+        <div class="etom-item"><b>COM-003</b><span>Contratación y pedidos</span></div>
+        <div class="etom-item"><b>ENT-001</b><span>Pedido a activación</span></div>
+        <div class="etom-item"><b>ENT-002</b><span>Proyectos y aceptación</span></div>
+        <div class="etom-item"><b>ING-001</b><span>Factibilidad y diseño</span></div>
+        <div class="etom-item"><b>ING-003</b><span>Inventario lógico de red</span></div>
+      </div>
+      <div class="etom-block">
+        <h4>Aseguramiento <span>· Assurance</span></h4>
+        <div class="etom-item"><b>OPS-001</b><span>Incidentes y escalaciones</span></div>
+        <div class="etom-item"><b>OPS-002</b><span>Cambios y configuración</span></div>
+        <div class="etom-item"><b>OPS-003</b><span>Problemas y causa raíz</span></div>
+        <div class="etom-item"><b>OPS-004</b><span>Acuerdos de servicio y continuidad</span></div>
+        <div class="etom-item"><b>OPS-005</b><span>Monitoreo y alarmas</span></div>
+        <div class="etom-item"><b>ING-002</b><span>Capacidad y expansión</span></div>
+      </div>
+    </div>
+
+    <div class="etom-col">
+      <div class="etom-block">
+        <h4>Facturación <span>· Billing</span></h4>
+        <div class="etom-item"><b>FAC-001</b><span>Facturación recurrente</span></div>
+        <div class="etom-item"><b>FAC-002</b><span>Cobranza y cartera</span></div>
+        <div class="etom-item"><b>FIN-001</b><span>Tesorería y pagos</span></div>
+        <div class="etom-item"><b>FIN-002</b><span>Contabilidad y cierre</span></div>
+      </div>
+      <div class="etom-block">
+        <h4>Cliente <span>· Customer</span></h4>
+        <div class="etom-item"><b>COM-004</b><span>Atención y experiencia</span></div>
+      </div>
+      <div class="etom-block">
+        <h4>Empresa <span>· Enterprise</span></h4>
+        <div class="etom-item"><b>GOV-001</b><span>Gobierno y facultades</span></div>
+        <div class="etom-item"><b>GOV-002</b><span>Calidad y auditoría</span></div>
+        <div class="etom-item"><b>GOV-003</b><span>Riesgos y continuidad</span></div>
+        <div class="etom-item"><b>GOV-004</b><span>Planeación y presupuesto</span></div>
+        <div class="etom-item"><b>SIS-001</b><span>Gobierno de sistemas</span></div>
+        <div class="etom-item"><b>SIS-002</b><span>Seguridad y accesos</span></div>
+        <div class="etom-item"><b>SIS-003</b><span>Aplicaciones e integraciones</span></div>
+        <div class="etom-item"><b>RH-001</b><span>Capital humano</span></div>
+        <div class="etom-item"><b>JUR-001</b><span>Contratos y regulación</span></div>
+        <div class="etom-item"><b>JUR-002</b><span>Protección de datos</span></div>
+      </div>
+      <div class="etom-block">
+        <h4>Proveedores <span>· Supplier/Partner</span></h4>
+        <div class="etom-item"><b>REC-001</b><span>Compras y aprovisionamiento</span></div>
+        <div class="etom-item"><b>REC-002</b><span>Almacenes y activos</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="note anim d4" style="margin-top:10px">El dominio es el principal; algunos procesos apoyan más de uno.</div>
+
+  <aside class="notes">
+    Este listado responde “¿dónde embona cada proceso?”. Los 33 procesos documentados se agrupan en ocho dominios principales de eTOM; los 5 mapas de referencia complementan el modelo.
+    No es una taxonomía perfecta: algunos procesos apoyan más de un dominio. Lo importante es que ya hay un lugar para cada uno.
+    Anexo: el detalle de los 33 procesos. El mapa vivo está en el tablero Excalidraw y en el Portal de procesos.
+  </aside>
+</section>
+
+<!-- ============ ANEXO B · ALCANCE Y ENTREGABLES ============ -->
+<section id="alcance">
+  <div class="eyebrow anim">Anexo B · Alcance y entregables <span class="dim">/ qué se entrega y cómo se verifica</span></div>
+  <h2 class="s-title anim d1">Alcance por fase. <em>Sin letra chica.</em></h2>
+  <p class="s-sub anim d2">Cada fase cierra con una salida verificable. Si la salida no se cumple, no se avanza a la siguiente.</p>
+
+  <table class="gap-table anim d2">
+    <thead>
+      <tr>
+        <th style="width:19%">Fase</th>
+        <th style="width:12%">Tiempo</th>
+        <th style="width:39%">Entregables</th>
+        <th>Criterio de aceptación</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="name">Fase 0 — Gobernanza mínima y arranque</td>
+        <td>Semana 0 (3–5 días)</td>
+        <td class="ev">Matriz de decisión (quién prioriza, quién aprueba). Clasificación de datos en 3 niveles. Plan de gobernanza completa (datos + IA + normativa) en diseño.</td>
+        <td class="ev">CEO aprueba el plan y nombra dueño operativo CTC.</td>
+      </tr>
+      <tr>
+        <td class="name">Fase 1 — Diagnóstico</td>
+        <td>Semanas 1–2</td>
+        <td class="ev">Cuestionario aplicado a 32 personas clave, con análisis. VSM de operación e instalaciones. Mapa de fricción y dispersión de datos. Datos del proceso piloto limpios y validados.</td>
+        <td class="ev">Informe de diagnóstico con hallazgos priorizados.</td>
+      </tr>
+      <tr>
+        <td class="name">Fase 2 — Flujo visible</td>
+        <td>Semanas 3–4</td>
+        <td class="ev">Tablero Kanban en Jira para 2 procesos críticos. Importación de Excel vía CSV. Límites de WIP. Vista unificada para el CEO. Capacitación en flujo real arrancada.</td>
+        <td class="ev">≥70 % del trabajo activo de los 2 procesos vive en Jira.</td>
+      </tr>
+      <tr>
+        <td class="name">Fase 3 — Ritmo y coordinación</td>
+        <td>Semanas 5–6</td>
+        <td class="ev">Eventos Scrum selectivos operando. SoS diario (15 min). EAT quincenal. Portal de procesos con procesos documentados.</td>
+        <td class="ev">SoS y EAT con cadencia sostenida; retrospectivas con acciones ejecutadas.</td>
+      </tr>
+      <tr>
+        <td class="name">Fase 4 — Medición y piloto IA</td>
+        <td>Semanas 7–8</td>
+        <td class="ev">Lead time, throughput y WIP medidos por primera vez. Túnel de trabajo (lo que entra → se analiza → se aprueba). Piloto de IA: triaje y clasificación de solicitudes entrantes, con gobernanza aplicada.</td>
+        <td class="ev">Línea base de métricas documentada. Piloto IA funcionando en paralelo, con revisión humana.</td>
+      </tr>
+      <tr class="high">
+        <td class="name">Corte — Semana 8</td>
+        <td>Semana 8</td>
+        <td class="ev">Informe de cierre con evidencia de cambio.</td>
+        <td class="ev"><strong>Jira ≥80 %, lead time medido, 1 piloto IA operando.</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note anim d3" style="margin-top:12px"><strong>El piloto de IA no es condicional:</strong> la limpieza de datos es entregable de la Fase 1, no un supuesto. SoS: coordinación diaria de 15 min entre equipos. EAT: comité quincenal que prioriza el túnel de trabajo.</div>
+
+  <aside class="notes">
+    Anexo: esta tabla es el contrato de la presentación: qué se entrega, cuándo y cómo se sabe que funcionó.
+    Leer solo la columna de criterios: son los números que el CEO puede verificar sin creernos la palabra.
+    El piloto de IA no depende de “que los datos estén limpios”: limpiarlos es trabajo de la Fase 1.
+  </aside>
+</section>
+
+<!-- ============ ANEXO C · LO QUE APORTA HMV ============ -->
+<section id="hmv-aporta">
+  <div class="eyebrow anim">Anexo C · Capacidades HMV Soluciones</div>
+
+  <figure class="hmv-map anim d2">
+    <img src="assets/hmv-capacidades.png" alt="Capacidades de HMV Soluciones: tecnología e innovación, arquitectura e ingeniería, metodologías ágiles, gestión y aseguramiento, gobernanza, negocio y procesos.">
+  </figure>
+
+  <div class="note anim d3" style="text-align:center">Capacidades de transformación digital, ingeniería y gobernanza.</div>
+
+  <aside class="notes">
+    Esta es la respuesta a “¿qué hace HMV?”: no solo diagnostica; también rediseña, especifica, selecciona e implanta.
+    Destacar 05, 06 y 08: IA, integraciones y acompañamiento son lo que evita que el proyecto se quede en un PowerPoint.
+    Anexo: el mapa de capacidades de HMV.
+  </aside>
+</section>
+
+<!-- ============ ANEXO D · BRECHAS TRANSVERSALES ============ -->
+<section id="brechas">
+  <div class="eyebrow anim">Anexo D · Brechas transversales <span class="dim">/ personas · procesos · tecnología · datos</span></div>
+  <h2 class="s-title anim d1">Cuatro cortes. <em>La misma herida.</em></h2>
+
+  <div class="grid-4" style="margin-top:8px">
+    <div class="card anim d1">
+      <h4>Personas</h4>
+      <ul class="mini">
+        <li>Roles y responsabilidades difusos.</li>
+        <li>Dependencia de conocimiento individual.</li>
+        <li>Resistencia a más controles.</li>
+        <li>Horas extras que se salen del presupuesto.</li>
+      </ul>
+      <div class="note" style="margin-top:8px">Riesgo: se va una persona, se va el proceso.</div>
+    </div>
+    <div class="card anim d2">
+      <h4>Procesos</h4>
+      <ul class="mini">
+        <li>Actividades manuales.</li>
+        <li>Falta de estandarización.</li>
+        <li>Retrabajo y reprocesos.</li>
+      </ul>
+      <div class="note" style="margin-top:8px">Riesgo: cada quien lo hace a su manera.</div>
+    </div>
+    <div class="card anim d3">
+      <h4>Tecnología</h4>
+      <ul class="mini">
+        <li>Información dispersa.</li>
+        <li>Integraciones limitadas.</li>
+        <li>Herramientas que terminan sin usarse.</li>
+      </ul>
+      <div class="note" style="margin-top:8px">Riesgo: se paga licencia, no resultado.</div>
+    </div>
+    <div class="card anim d4">
+      <h4>Datos</h4>
+      <ul class="mini">
+        <li>Información dispersa.</li>
+        <li>Indicadores difíciles de obtener; dependen de una revisión manual de un día.</li>
+        <li>Baja trazabilidad.</li>
+      </ul>
+      <div class="note" style="margin-top:8px">Riesgo: decisiones sobre supuestos.</div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+  <div class="divider"></div>
+  <div style="display:flex; justify-content:space-between; gap:20px; align-items:center">
+    <div class="mono lime">Consecuencia</div>
+    <div class="tiny">Decisiones lentas · costo alto · riesgo alto · cliente insatisfecho.</div>
+  </div>
+
+  <aside class="notes">
+    No son cuatro problemas separados: son cuatro caras del mismo. Si se ataca solo tecnología, las otras tres vuelven a romper el sistema.
+    La resistencia a controles y las horas extras fuera de presupuesto son señales de gestión, no solo de carga operativa.
+    Anexo: las cuatro caras del mismo problema; el detalle vive en el GAP y en Madurez.
+  </aside>
+</section>
+
+
+</div>
+</div>
+
+<script src="vendor/reveal/reveal.js"></script>
+<script src="vendor/reveal/notes.js"></script>
+<script>
+  // Reorganiza cada diapositiva en cabecera fija + cuerpo centrado.
+  // Se hace antes de inicializar Reveal para no alterar su navegación.
+  (function () {
+    document.querySelectorAll('.reveal .slides > section').forEach(function (sec) {
+      if (sec.id === 'cover') return;
+      var head = document.createElement('div');
+      head.className = 'slide-head';
+      var body = document.createElement('div');
+      body.className = 'slide-body';
+      var kids = Array.prototype.slice.call(sec.children);
+      var i = 0;
+      if (kids[i] && kids[i].classList.contains('eyebrow')) head.appendChild(kids[i++]);
+      if (kids[i] && kids[i].classList.contains('s-title')) head.appendChild(kids[i++]);
+      if (kids[i] && kids[i].classList.contains('s-sub')) head.appendChild(kids[i++]);
+      for (; i < kids.length; i++) {
+        var k = kids[i];
+        if (k.classList.contains('notes') || k.classList.contains('spacer')) continue;
+        body.appendChild(k);
+      }
+      if (head.querySelector('.s-sub')) body.classList.add('has-sub');
+      sec.insertBefore(body, sec.firstChild);
+      sec.insertBefore(head, body);
+    });
+  })();
+
+  Reveal.initialize({
+    width: 1440,
+    height: 810,
+    margin: 0.035,
+    minScale: 0.2,
+    maxScale: 2.0,
+    controls: true,
+    progress: true,
+    slideNumber: 'c/t',
+    hash: true,
+    history: true,
+    center: false,
+    transition: 'fade',
+    transitionSpeed: 'fast',
+    backgroundTransition: 'fade',
+    plugins: [ RevealNotes ]
+  });
+
+  const setCover = () => {
+    const i = Reveal.getIndices();
+    document.body.classList.toggle('is-cover', i.h === 0);
+  };
+  Reveal.on('ready', setCover);
+  Reveal.on('slidechanged', setCover);
+</script>
+</body>
+</html>
+
+
