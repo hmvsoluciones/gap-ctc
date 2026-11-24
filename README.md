@@ -36,7 +36,7 @@ También se puede navegar con los controles de la esquina inferior derecha y con
 
 1. **Portada** — GAP Analysis / Análisis de Brechas, solo con los logos CTC × HMV.
 2. **Lo que aporta HMV** — mapa visual de capacidades: tecnología e innovación, arquitectura e ingeniería, metodologías ágiles, gestión y aseguramiento, gobernanza, negocio y procesos.
-3. **Resumen ejecutivo** — la tesis: la operación creció, el sistema operativo no. KPIs: 33 procesos, 0 aprobados, 30 h extras, 3 almacenes.
+3. **Resumen ejecutivo** — la tesis: la operación creció, el modelo operativo no. KPIs: 33 procesos, 0 aprobados, 30 h extras, 3 almacenes.
 4. **Diagnóstico** — “No es falta de demanda. Es falta de estructura”; 32 estados, 3 países (5 en proyección), 3 almacenes.
 5. **Cadena de valor** — 6 etapas de CTC mapeadas a eTOM, con los procesos documentados que embonan en cada una.
 6. **Procesos en eTOM** — listado completo: 33 procesos agrupados en 8 dominios principales (mercado/venta, producto, cumplimiento, aseguramiento, facturación, cliente, empresa y proveedores) + 5 mapas de referencia = 38 documentos.
@@ -57,7 +57,7 @@ También se puede navegar con los controles de la esquina inferior derecha y con
 21. **Próximos pasos** — 8 semanas, CTA (arrancar la fase 0 el 23 de noviembre) e hitos 30/60/90/120.
 22. **Diferenciadores** — un solo equipo, una solución integral: Visión 360, ecosistema tecnológico, equipo especializado en marcos, tecnologías y metodologías, mejores prácticas y normatividad.
 23. **Transferencia de conocimiento** — el equipo interno que sostiene el cambio: transferencia de conocimiento, capacitación, documentación de soporte, manuales de usuario y técnicos, y propiedad intelectual de lo desarrollado a medida.
-24. **Cierre** — “El siguiente paso no es comprar más software; es construir el sistema operativo de CTC”, con CTA para arrancar la fase 0 el 23 de noviembre.
+24. **Cierre** — “El siguiente paso no es comprar más software; es construir el modelo operativo de CTC”, con CTA para arrancar la fase 0 el 23 de noviembre.
 
 > La página de soluciones también está disponible como archivo independiente: **`soluciones.html`**.
 
