@@ -111,7 +111,7 @@
   </div>
 
   <aside class="notes">
-    Tres ideas: el crecimiento rompió el modelo de coordinación; el costo ya se paga en horas extras y reprocesos; lo que falta no es software, es sistema operativo.
+    Tres ideas: el crecimiento rompió el modelo de coordinación; el costo ya se paga en horas extras y reprocesos; lo que falta no es software, es modelo operativo.
     No entrar todavía en herramientas.
   </aside>
 </section>
@@ -389,8 +389,7 @@
   <p class="s-sub anim d2">Una herramienta comprada antes de rediseñar el proceso termina igual que las que ya no se usan: costó, no se adoptó y no cambió el resultado.</p>
 
   <div class="split-55" style="margin-top:8px">
-    <div class="arch anim d2">
-      <div class="stack-v">
+    <div class="stack-v anim d2">
       <div class="card anim d3">
         <h4>La regla</h4>
         <p><strong>Proceso primero, dato después, herramienta al final.</strong> La tecnología correcta no compensa un proceso que nadie decidió.</p>
@@ -399,18 +398,16 @@
         <h4>Implementación apresurada</h4>
         <p>Mismo destino que las herramientas que ya no se usan. <strong>Sin proceso, la herramienta solo digitaliza el desorden.</strong></p>
       </div>
+    </div>
+    <div class="arch anim d5">
+      <div class="layer erp">
+        <div class="k">ERP</div>
+        <div class="v">El sistema administrativo de la empresa.<small>Facturación, compras, contabilidad y almacén en un solo lugar. Registra lo que se decidió; no decide cómo se trabaja.</small></div>
       </div>
-    </div>
-  </div>
-
-  <div class="arch anim d5">
-    <div class="layer erp">
-      <div class="k">ERP</div>
-      <div class="v">El sistema administrativo de la empresa.<small>Facturación, compras, contabilidad y almacén en un solo lugar. Registra lo que se decidió; no decide cómo se trabaja.</small></div>
-    </div>
-    <div class="layer oss">
-      <div class="k">OSS</div>
-      <div class="v">Los sistemas que gobiernan la red.<small>Inventario de fibra y equipos, configuración y monitoreo. Sin inventario de red, el OSS no tiene qué gobernar.</small></div>
+      <div class="layer oss">
+        <div class="k">OSS</div>
+        <div class="v">Los sistemas que gobiernan la red.<small>Inventario de fibra y equipos, configuración y monitoreo. Sin inventario de red, el OSS no tiene qué gobernar.</small></div>
+      </div>
     </div>
   </div>
 
@@ -612,9 +609,9 @@
       <h3>Cimentar</h3>
       <ul>
         <li>Equipo de 32 organizado: dueños de proceso nombrados según RACI y capacitados</li>
-        <li>eTOM Nivel 3 en 6 procesos (C1)</li>
-        <li>ITIL: incidentes y solicitudes, con catálogo de servicios (C2)</li>
-        <li>IA: inventario de usos y riesgos evaluados (C3)</li>
+        <li>eTOM Nivel 3 en 6 procesos (Arquitectura empresarial)</li>
+        <li>ITIL: incidentes y solicitudes, con catálogo de servicios (Operación)</li>
+        <li>IA: inventario de usos y riesgos evaluados (Servicios)</li>
       </ul>
       <div class="out">Salida: 6 procesos en Jira con SLA medidos</div>
     </div>
@@ -622,10 +619,10 @@
       <div class="h">Mes 5–8</div>
       <h3>Escalar</h3>
       <ul>
-        <li>eTOM Nivel 3 en los 33 procesos (C1)</li>
-        <li>Kanban en todos los procesos, con límites de trabajo en curso (C2)</li>
-        <li>ITIL: problemas, cambios y niveles de servicio operando (C2)</li>
-        <li>IA: controles del Anexo A y segundo piloto (C3)</li>
+        <li>eTOM Nivel 3 en los 33 procesos (Arquitectura empresarial)</li>
+        <li>Kanban en todos los procesos, con límites de trabajo en curso (Operación)</li>
+        <li>ITIL: problemas, cambios y niveles de servicio operando (Operación)</li>
+        <li>IA: controles del Anexo A y segundo piloto (Servicios)</li>
       </ul>
       <div class="out">Salida: 33 procesos con Nivel 3 y métricas de flujo</div>
     </div>
@@ -633,16 +630,16 @@
       <div class="h">Mes 9–12</div>
       <h3>Sostener y transferir</h3>
       <ul>
-        <li>Mapa y catálogo vivos en el Portal de procesos (C1)</li>
-        <li>SoS y EAT con presidencia interna (C2)</li>
-        <li>IA: auditoría interna y triaje en producción plena (C3)</li>
-        <li>ERP: decisión en mes 10–12 (C1 + C3)</li>
+        <li>Mapa y catálogo vivos en el Portal de procesos (Arquitectura empresarial)</li>
+        <li>SoS y EAT con presidencia interna (Operación)</li>
+        <li>IA: auditoría interna y triaje en producción plena (Servicios)</li>
+        <li>ERP: decisión en mes 10–12 (Arquitectura empresarial + Servicios)</li>
       </ul>
       <div class="out">Salida: el equipo interno de CTC opera sin HMV</div>
     </div>
   </div>
 
-  <div class="note anim d4" style="margin-top:14px">3 consultores de HMV, las mismas personas de la Propuesta 1: <strong>C1</strong> Arquitecto empresarial · <strong>C2</strong> Líder de operación y servicio · <strong>C3</strong> Gobernanza de datos e IA. Equipo interno de CTC: 32 personas.</div>
+  <div class="note anim d4" style="margin-top:14px">HMV cubre tres frentes: arquitectura empresarial, operación y servicios. Equipo interno de CTC: 32 personas.</div>
 
   <div class="anim d5" style="margin-top:10px; border:1px dashed var(--line); border-radius:3px; padding:10px 14px; font-size:13.5px; color:var(--muted)">Mes 13–18 (opcional): implantación del ERP sobre lo ya normado — fuera del compromiso de 12 meses.</div>
 
@@ -661,12 +658,12 @@
 <section id="por-que-hmv">
   <div class="eyebrow anim">11 · Por qué HMV <span class="dim">/ un solo equipo</span></div>
   <h2 class="s-title anim d1">Ejecutamos. <em>No solo diagnosticamos.</em></h2>
-  <p class="s-sub anim d2">Un solo equipo, un solo plan, un solo responsable: CTC no orquesta proveedores. La diferencia entre un informe y un sistema operativo es quién se queda a implementarlo.</p>
+  <p class="s-sub anim d2">Un solo equipo, un solo plan, un solo responsable: CTC no orquesta proveedores. La diferencia entre un informe y un modelo operativo es quién se queda a implementarlo.</p>
 
   <div class="grid-4" style="margin-top:8px">
     <div class="card anim d1">
       <h4>Ejecutamos y asesoramos</h4>
-      <p>No entregamos un informe y nos retiramos. Los 3 consultores implementan, capacitan y acompañan.</p>
+      <p>No entregamos un informe y nos retiramos. El equipo de HMV implementa, capacita y acompaña.</p>
     </div>
     <div class="card anim d2">
       <h4>Un solo equipo</h4>
@@ -695,28 +692,28 @@
 <section id="equipo">
   <div class="eyebrow anim">12 · Equipo y supuestos <span class="dim">/ quién hace qué y qué se necesita</span></div>
   <h2 class="s-title anim d1">El equipo, y lo que <em>CTC pone.</em></h2>
-  <p class="s-sub anim d2">Tres consultores de HMV, las mismas personas en las dos propuestas. Del lado CTC, el equipo son 32 personas; dos roles dedicados son condición, no preferencia.</p>
+  <p class="s-sub anim d2">HMV cubre tres frentes: arquitectura empresarial, operación y servicios. Del lado CTC, el equipo son 32 personas; dos roles dedicados son condición, no preferencia.</p>
 
   <div class="split-55" style="margin-top:6px">
     <div class="anim d2">
       <table class="gap-table">
         <thead>
           <tr>
-            <th style="width:34%">Consultor HMV</th>
+            <th style="width:34%">Frente HMV</th>
             <th>Responsabilidad</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td class="name">C1 · Arquitecto empresarial</td>
+            <td class="name">Arquitectura empresarial</td>
             <td class="ev">Procesos y arquitectura: VSM, eTOM, estandarización, mapa de fricción y plan de migración.</td>
           </tr>
           <tr>
-            <td class="name">C2 · Líder de operación y servicio</td>
+            <td class="name">Operación</td>
             <td class="ev">Jira y ritmo: tableros, importación, permisos, métricas de flujo, SoS y EAT, ITIL.</td>
           </tr>
           <tr>
-            <td class="name">C3 · Gobernanza de datos e IA</td>
+            <td class="name">Servicios</td>
             <td class="ev">Datos e IA: capacitación, gestión de resistencia al Excel, política de IA y gobernanza de datos.</td>
           </tr>
         </tbody>
@@ -731,6 +728,7 @@
           <li>CTC proporciona acceso a los Excel y a las personas clave para el VSM.</li>
           <li>El CEO asiste al EAT quincenal o delega con autoridad de decisión.</li>
           <li>Jira Cloud es viable tras la clasificación de datos de la Fase 0.</li>
+          <li>CTC comparte su estructura organizacional (para nombrar dueños de proceso y mapear responsabilidades).</li>
         </ul>
       </div>
       <div class="card">
@@ -740,6 +738,7 @@
           <li>Integraciones con ERP/CRM existentes (se evalúan en Fase 2).</li>
           <li>Implementación completa de eTOM (solo vocabulario en esta fase).</li>
           <li>Automatizaciones fuera del piloto acotado de IA.</li>
+          <li>Software desarrollado a medida (fuera del arranque de 8 semanas; corresponde a la escala de 12 meses).</li>
         </ul>
       </div>
     </div>
@@ -799,7 +798,7 @@
 <section id="cierre">
   <div class="eyebrow anim">Cierre</div>
 
-  <p class="quote anim d1" style="font-size:50px; max-width:27ch">El siguiente paso no es comprar más software. <em>Es construir el sistema operativo de CTC.</em></p>
+  <p class="quote anim d1" style="font-size:50px; max-width:27ch">El siguiente paso no es comprar más software. <em>Es construir el modelo operativo de CTC.</em></p>
 
   <p class="body anim d3" style="max-width:72ch; font-size:17.5px">Procesos, datos y gobierno primero. Tecnología después. Resultados en 30 días, escala en 12 meses.</p>
 
